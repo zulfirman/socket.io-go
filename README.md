@@ -31,7 +31,7 @@ Try reducing pingInterval and pingTimeout.
 
 ## Guide
 
-See the [examples](examples) directory for the chat example. See [pkg.go.dev](https://pkg.go.dev/github.com/kaiterra/socket.io-go) for documentation.
+See the [examples](examples) directory for the chat example. See [pkg.go.dev](https://pkg.go.dev/github.com/zulfirman/socket.io-go) for documentation.
 
 ### Reserved events
 

@@ -6,9 +6,9 @@ This package is for `encoding/json` support. `encoding/json` has no configuratio
 
 ```go
 import (
-    sio "github.com/kaiterra/socket.io-go"
-    jsonparser "github.com/kaiterra/socket.io-go/parser/json"
-    "github.com/kaiterra/socket.io-go/parser/json/serializer/stdjson"
+    sio "github.com/zulfirman/socket.io-go"
+    jsonparser "github.com/zulfirman/socket.io-go/parser/json"
+    "github.com/zulfirman/socket.io-go/parser/json/serializer/stdjson"
 )
 
 func main() {

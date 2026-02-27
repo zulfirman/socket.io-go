@@ -4,11 +4,11 @@ import (
 	"testing"
 
 	mapset "github.com/deckarep/golang-set/v2"
-	"github.com/kaiterra/socket.io-go/parser"
-	jsonparser "github.com/kaiterra/socket.io-go/parser/json"
-	"github.com/kaiterra/socket.io-go/parser/json/serializer/stdjson"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/zulfirman/socket.io-go/parser"
+	jsonparser "github.com/zulfirman/socket.io-go/parser/json"
+	"github.com/zulfirman/socket.io-go/parser/json/serializer/stdjson"
 )
 
 func TestInMemoryAdapterAddDelete(t *testing.T) {

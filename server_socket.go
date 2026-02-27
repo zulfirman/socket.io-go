@@ -5,13 +5,13 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/kaiterra/socket.io-go/internal/sync"
-	"github.com/kaiterra/socket.io-go/internal/utils"
+	"github.com/zulfirman/socket.io-go/internal/sync"
+	"github.com/zulfirman/socket.io-go/internal/utils"
 
 	mapset "github.com/deckarep/golang-set/v2"
-	"github.com/kaiterra/socket.io-go/adapter"
-	eio "github.com/kaiterra/socket.io-go/engine.io"
-	"github.com/kaiterra/socket.io-go/parser"
+	"github.com/zulfirman/socket.io-go/adapter"
+	eio "github.com/zulfirman/socket.io-go/engine.io"
+	"github.com/zulfirman/socket.io-go/parser"
 )
 
 type serverSocket struct {

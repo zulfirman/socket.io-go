@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/kaiterra/socket.io-go/internal/sync"
-	"github.com/kaiterra/socket.io-go/internal/utils"
+	"github.com/zulfirman/socket.io-go/internal/sync"
+	"github.com/zulfirman/socket.io-go/internal/utils"
 
 	"github.com/stretchr/testify/require"
 )

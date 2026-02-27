@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kaiterra/socket.io-go/engine.io/parser"
-	"github.com/kaiterra/socket.io-go/internal/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/zulfirman/socket.io-go/engine.io/parser"
+	"github.com/zulfirman/socket.io-go/internal/utils"
 )
 
 func TestPacketQueue(t *testing.T) {

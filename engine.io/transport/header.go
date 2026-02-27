@@ -3,7 +3,7 @@ package transport
 import (
 	"net/http"
 
-	"github.com/kaiterra/socket.io-go/internal/sync"
+	"github.com/zulfirman/socket.io-go/internal/sync"
 )
 
 // A concurrent HTTP request header.

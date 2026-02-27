@@ -1,6 +1,6 @@
 package eio
 
-import "github.com/kaiterra/socket.io-go/engine.io/parser"
+import "github.com/zulfirman/socket.io-go/engine.io/parser"
 
 type (
 	NewSocketCallback func(socket ServerSocket) *Callbacks

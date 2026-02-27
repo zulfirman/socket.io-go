@@ -7,12 +7,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kaiterra/socket.io-go/internal/sync"
+	"github.com/zulfirman/socket.io-go/internal/sync"
 
 	"github.com/fatih/structs"
-	"github.com/kaiterra/socket.io-go/adapter"
-	eioparser "github.com/kaiterra/socket.io-go/engine.io/parser"
-	"github.com/kaiterra/socket.io-go/parser"
+	"github.com/zulfirman/socket.io-go/adapter"
+	eioparser "github.com/zulfirman/socket.io-go/engine.io/parser"
+	"github.com/zulfirman/socket.io-go/parser"
 )
 
 type (

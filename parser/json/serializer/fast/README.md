@@ -10,9 +10,9 @@ Also note that go-json's version is `0.10.0` at the time of writing. Please cons
 
 ```go
 import (
-    sio "github.com/kaiterra/socket.io-go"
-    jsonparser "github.com/kaiterra/socket.io-go/parser/json"
-    "github.com/kaiterra/socket.io-go/parser/json/serializer/fast"
+    sio "github.com/zulfirman/socket.io-go"
+    jsonparser "github.com/zulfirman/socket.io-go/parser/json"
+    "github.com/zulfirman/socket.io-go/parser/json/serializer/fast"
 )
 
 func main() {
@@ -40,9 +40,9 @@ switch serializerType {
 
 ```go
 import (
-    sio "github.com/kaiterra/socket.io-go"
-    jsonparser "github.com/kaiterra/socket.io-go/parser/json"
-    "github.com/kaiterra/socket.io-go/parser/json/serializer/fast"
+    sio "github.com/zulfirman/socket.io-go"
+    jsonparser "github.com/zulfirman/socket.io-go/parser/json"
+    "github.com/zulfirman/socket.io-go/parser/json/serializer/fast"
     "github.com/bytedance/sonic"
     "github.com/goccy/go-json"
 )

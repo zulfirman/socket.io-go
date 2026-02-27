@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kaiterra/socket.io-go/internal/sync"
+	"github.com/zulfirman/socket.io-go/internal/sync"
 
-	eio "github.com/kaiterra/socket.io-go/engine.io"
-	"github.com/kaiterra/socket.io-go/engine.io/parser"
+	eio "github.com/zulfirman/socket.io-go/engine.io"
+	"github.com/zulfirman/socket.io-go/engine.io/parser"
 )
 
 const addr = "127.0.0.1:3000"

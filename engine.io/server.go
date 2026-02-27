@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/kaiterra/socket.io-go/internal/sync"
+	"github.com/zulfirman/socket.io-go/internal/sync"
 
-	"github.com/kaiterra/socket.io-go/engine.io/parser"
-	"github.com/kaiterra/socket.io-go/engine.io/transport"
-	"github.com/kaiterra/socket.io-go/engine.io/transport/polling"
-	_websocket "github.com/kaiterra/socket.io-go/engine.io/transport/websocket"
+	"github.com/zulfirman/socket.io-go/engine.io/parser"
+	"github.com/zulfirman/socket.io-go/engine.io/transport"
+	"github.com/zulfirman/socket.io-go/engine.io/transport/polling"
+	_websocket "github.com/zulfirman/socket.io-go/engine.io/transport/websocket"
 
 	"nhooyr.io/websocket"
 )

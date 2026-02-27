@@ -3,10 +3,10 @@ package sio
 import (
 	"time"
 
-	"github.com/kaiterra/socket.io-go/internal/sync"
+	"github.com/zulfirman/socket.io-go/internal/sync"
 
-	eio "github.com/kaiterra/socket.io-go/engine.io"
-	eioparser "github.com/kaiterra/socket.io-go/engine.io/parser"
+	eio "github.com/zulfirman/socket.io-go/engine.io"
+	eioparser "github.com/zulfirman/socket.io-go/engine.io/parser"
 )
 
 type packetQueue struct {

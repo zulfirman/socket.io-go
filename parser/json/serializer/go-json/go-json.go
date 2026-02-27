@@ -4,7 +4,7 @@ import (
 	"io"
 
 	"github.com/goccy/go-json"
-	"github.com/kaiterra/socket.io-go/parser/json/serializer"
+	"github.com/zulfirman/socket.io-go/parser/json/serializer"
 )
 
 type gojsonSerializer struct {

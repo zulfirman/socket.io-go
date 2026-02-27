@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kaiterra/socket.io-go/engine.io/parser"
-	"github.com/kaiterra/socket.io-go/internal/utils"
 	"github.com/stretchr/testify/assert"
+	"github.com/zulfirman/socket.io-go/engine.io/parser"
+	"github.com/zulfirman/socket.io-go/internal/utils"
 )
 
 type testDialOptions struct {

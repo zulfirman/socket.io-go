@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/kaiterra/socket.io-go/internal/sync"
+	"github.com/zulfirman/socket.io-go/internal/sync"
 )
 
 type eventHandler struct {

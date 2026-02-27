@@ -7,11 +7,11 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/kaiterra/socket.io-go/internal/sync"
+	"github.com/zulfirman/socket.io-go/internal/sync"
 
-	eio "github.com/kaiterra/socket.io-go/engine.io"
-	eioparser "github.com/kaiterra/socket.io-go/engine.io/parser"
-	"github.com/kaiterra/socket.io-go/parser"
+	eio "github.com/zulfirman/socket.io-go/engine.io"
+	eioparser "github.com/zulfirman/socket.io-go/engine.io/parser"
+	"github.com/zulfirman/socket.io-go/parser"
 )
 
 // This struct represents a connection to the server.

@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kaiterra/socket.io-go/parser"
-	jsonparser "github.com/kaiterra/socket.io-go/parser/json"
-	"github.com/kaiterra/socket.io-go/parser/json/serializer/stdjson"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/zulfirman/socket.io-go/parser"
+	jsonparser "github.com/zulfirman/socket.io-go/parser/json"
+	"github.com/zulfirman/socket.io-go/parser/json/serializer/stdjson"
 )
 
 func TestPersistAndRestoreSession(t *testing.T) {

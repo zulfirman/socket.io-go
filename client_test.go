@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	eio "github.com/kaiterra/socket.io-go/engine.io"
-	"github.com/kaiterra/socket.io-go/internal/sync"
-	"github.com/kaiterra/socket.io-go/internal/utils"
+	eio "github.com/zulfirman/socket.io-go/engine.io"
+	"github.com/zulfirman/socket.io-go/internal/sync"
+	"github.com/zulfirman/socket.io-go/internal/utils"
 
 	"github.com/stretchr/testify/assert"
 )

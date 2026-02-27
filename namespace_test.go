@@ -5,10 +5,10 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set/v2"
-	"github.com/kaiterra/socket.io-go/adapter"
-	"github.com/kaiterra/socket.io-go/internal/sync"
-	"github.com/kaiterra/socket.io-go/internal/utils"
 	"github.com/stretchr/testify/assert"
+	"github.com/zulfirman/socket.io-go/adapter"
+	"github.com/zulfirman/socket.io-go/internal/sync"
+	"github.com/zulfirman/socket.io-go/internal/utils"
 )
 
 func TestNamespace(t *testing.T) {

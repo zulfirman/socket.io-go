@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/kaiterra/socket.io-go/engine.io/parser"
-	"github.com/kaiterra/socket.io-go/engine.io/transport"
+	"github.com/zulfirman/socket.io-go/engine.io/parser"
+	"github.com/zulfirman/socket.io-go/engine.io/transport"
 )
 
 type TestSocket struct {

@@ -6,14 +6,14 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/kaiterra/socket.io-go/internal/sync"
+	"github.com/zulfirman/socket.io-go/internal/sync"
 
 	_websocket "nhooyr.io/websocket"
 
-	"github.com/kaiterra/socket.io-go/engine.io/parser"
-	"github.com/kaiterra/socket.io-go/engine.io/transport"
-	"github.com/kaiterra/socket.io-go/engine.io/transport/polling"
-	"github.com/kaiterra/socket.io-go/engine.io/transport/websocket"
+	"github.com/zulfirman/socket.io-go/engine.io/parser"
+	"github.com/zulfirman/socket.io-go/engine.io/transport"
+	"github.com/zulfirman/socket.io-go/engine.io/transport/polling"
+	"github.com/zulfirman/socket.io-go/engine.io/transport/websocket"
 )
 
 var errUpgradeTimeoutExceeded = fmt.Errorf("upgradeTimeout exceeded")

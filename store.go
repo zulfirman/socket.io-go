@@ -3,10 +3,10 @@ package sio
 import (
 	"reflect"
 
-	"github.com/kaiterra/socket.io-go/internal/sync"
+	"github.com/zulfirman/socket.io-go/internal/sync"
 
-	"github.com/kaiterra/socket.io-go/adapter"
-	"github.com/kaiterra/socket.io-go/parser"
+	"github.com/zulfirman/socket.io-go/adapter"
+	"github.com/zulfirman/socket.io-go/parser"
 )
 
 type (

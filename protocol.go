@@ -1,8 +1,8 @@
 package sio
 
 import (
-	eioparser "github.com/kaiterra/socket.io-go/engine.io/parser"
-	"github.com/kaiterra/socket.io-go/parser"
+	eioparser "github.com/zulfirman/socket.io-go/engine.io/parser"
+	"github.com/zulfirman/socket.io-go/parser"
 )
 
 const (
